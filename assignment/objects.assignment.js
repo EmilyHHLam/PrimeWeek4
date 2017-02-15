@@ -98,10 +98,10 @@ createBooksWithConstructor();
 console.log(createBooksWithConstructor());
 
 
-// //-- DON'T TOUCH CODE BELOW --
-// module.exports = {
-//   threeBooks: threeBooks,
-//   fixLiteralSyntax: fixLiteralSyntax,
-//   Book: Book,
-//   createBooksWithConstructor: createBooksWithConstructor
-// };
+//-- DON'T TOUCH CODE BELOW --
+module.exports = {
+  threeBooks: threeBooks,
+  fixLiteralSyntax: fixLiteralSyntax,
+  Book: Book,
+  createBooksWithConstructor: createBooksWithConstructor
+};
