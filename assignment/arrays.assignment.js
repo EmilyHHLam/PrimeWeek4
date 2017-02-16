@@ -20,7 +20,7 @@ function loopArray(array) {
   var conString = '';
   // Write code here: Concatentate all of the values in array together using a loop
       for(var i =0; i < array.length; i++) {
-        conString = conString + ' ' + array[i];
+        conString = conString + array[i];
       }
 
   // return concatentated values

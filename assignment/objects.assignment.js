@@ -82,9 +82,9 @@ function createBooksWithConstructor() {
       this.haveRead = haveRead;
     };
 
-    var bookA = new anotherThreeBooks('Cam Jansen', 'autho1', 45, false);
+    var bookA = new anotherThreeBooks('Cam Jansen', 'David A. Adler', 45, false);
     var bookB = new anotherThreeBooks('Sunset of the Sabertooth', 'Wary Pope Osborne', 68, false);
-    var bookC = new anotherThreeBooks('Julie B. Jones', 'autho3', 45, true);
+    var bookC = new anotherThreeBooks('Julie B. Jones smells something fishy', 'Barbara Park', 45, true);
 
 
   // Store them in an array called books
